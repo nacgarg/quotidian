@@ -1,0 +1,20 @@
+{
+
+    "manifest_version": 2,
+    "name": "Quotidian",
+    "version": "0.0.1",
+
+
+    "description": "Quotes that are a click away.",
+    "browser_action": {
+        "default_icon": {                    // optional
+            "19": "quotidian.png",           // optional
+            "38": "quotidian.png"            // optional
+          },
+        "default_title": "Quotidian", // optional; shown in tooltip
+        "default_popup": "popup.html" // optional
+    },
+    "permissions": [
+        "http://api.forismatic.com/"
+    ]
+}
