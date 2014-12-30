@@ -1,13 +1,43 @@
-<html>
-<h1>
+<html tabindex="1">
+
+<head>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <style type="text/css">
+    body {
+        min-width: 350px;
+        max-width: 100%;
+        position: relative;
+        vertical-align: middle;
+    }
+    </style>
+</head>
+
+<body>
+    <div style='position:absolute;top:0px;'>
+        <div id="header" style='background-color:rgb(153, 20, 253);  width:100%;position:absolute;top:0px;padding-bottom:5px'>
+            <h1 style='padding-left:15px;color:FFFFFF'>
 Quotidian
 </h1>
-<p id='quote'></p>
-<blockquote>
-    <p id='quote'></p>
-    <footer>
-        - <cite><a href="" id='author'></a></cite>
-    </footer>
-</blockquote>
-<script src="popup.js"></script>
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <blockquote>
+            <p id='quote'></p>
+            <footer>
+
+                <cite>
+                    <a href="" id='author'></a>
+                </cite>
+            </footer>
+        </blockquote>
+        <font size=1> Quotes provided by <a id='asdf'>forismatic</a>
+        </font>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="popup.js"></script>
+</body>
+
 </html>
