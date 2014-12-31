@@ -1,13 +1,13 @@
 {
     "manifest_version": 2,
     "name": "Quotidian",
-    "version": "1.2.5",
+    "version": "1.2.6",
     "author":"Nachiketa Gargi",
     "description": "Quotes that are a click away.",
     "browser_action": {
         "default_icon": {
-            "19": "quotidian.png",
-            "38": "quotidian.png"
+            "19": "quotidian-2.png",
+            "38": "quotidian-2.png"
         },
         "default_title": "Quotidian",
         "default_popup": "popup.html"
