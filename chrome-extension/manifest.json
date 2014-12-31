@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Quotidian",
-    "version": "1.2.4",
+    "version": "1.2.5",
     "author":"Nachiketa Gargi",
     "description": "Quotes that are a click away.",
     "browser_action": {
