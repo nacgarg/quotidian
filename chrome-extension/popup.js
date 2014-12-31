@@ -13,6 +13,11 @@ function display(object) {
     document.getElementById('asdf').addEventListener("click", function() {
         window.open('http://www.forismatic.com/en')
     });
+    document.getElementById('secret').value = '"'+object.quoteText+'" - '+ object.quoteAuthor+'\r\nVia Quotidian - http://ngargi.me/quotidian';
+    document.getElementById('asdfg').addEventListener("click", function() {
+    	document.getElementById('secret').select();
+    	document.execCommand('copy', true);
+    });
 }
 xmlhttp.open("POST", url, true);
 xmlhttp.onreadystatechange = function() {
@@ -23,4 +28,5 @@ xmlhttp.onreadystatechange = function() {
 
     }
 }
+
 xmlhttp.send();
