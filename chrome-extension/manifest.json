@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Quotidian",
-    "version": "1.2.2",
+    "version": "1.2.3",
     "author":"Nachiketa Gargi",
     "description": "Quotes that are a click away.",
     "browser_action": {
@@ -16,5 +16,6 @@
         "http://api.forismatic.com/",
         "tts",
         "clipboardWrite"
-    ]
+    ],
+    "update_url": "http://ngargi.me/quotidian/updates.xml"
 }
