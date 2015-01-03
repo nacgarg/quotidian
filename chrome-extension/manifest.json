@@ -6,8 +6,8 @@
     "description": "Quotes that are a click away.",
     "browser_action": {
         "default_icon": {
-            "19": "quotidian-2.png",
-            "38": "quotidian-2.png"
+            "19": "quotidian.png",
+            "38": "quotidian.png"
         },
         "default_title": "Quotidian",
         "default_popup": "popup.html"
